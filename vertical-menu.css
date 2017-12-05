@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.vertical-menu {
+    width: 100%;
+}
+
+.vertical-menu a {
+    border-bottom: 1px solid #F3F3F3;
+	color: #404040;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+	font-size: 1.5em;
+}
+
+.vertical-menu a:hover {
+    background-color: #F3F3F3;
+	text-decoration: none;
+	color: #404040;
+}
+
+.vertical-menu a.active {
+    background-color: #3a7ba7;
+    color: white;
+}

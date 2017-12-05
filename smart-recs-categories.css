@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.ucla-fellowship {
+	font-size: 1.8em;
+    font-variant-caps: all-small-caps;
+    font-weight: 800;
+    color: #287cb3;
+}

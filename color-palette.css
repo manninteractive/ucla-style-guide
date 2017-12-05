@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.color-block-ucla-blue {
+	background-color: #3284BF;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-gold {
+	background-color: #FFE800;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-dark-blue {
+	background-color: #1E4B87;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-ocean-blue {
+	background-color: #00A5E5;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-text {
+	background-color: #347BAD;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-yellow {
+	background-color: #FFFF00;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-green {
+	background-color: #00FF87;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-pink {
+	background-color: #FF00A5;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-sky-blue {
+	background-color: #00FFFF;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-slate-gray {
+	background-color: #666666;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-orange {
+	background-color: #FFB300;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-purple {
+	background-color: #8237FF;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-grad-blue {
+	background-color: #93D3EB;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-grad-link-active {
+	background-color: #3A7BA7;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-grad-heading {
+	background-color: #287CB3;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-grad-link {
+	background-color: #1B3DAB;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-grad-subtext {
+	background-color: #3B4873;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-grad-text {
+	background-color: #404040;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-grad-link-visited {
+	background-color: #660099;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.color-block-ucla-grad-icon {
+	background-color: #93D3EB;
+	padding: 50px;
+	width: 100%;
+	border-radius: 1em;
+	border: 4px solid white;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
