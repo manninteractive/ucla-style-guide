@@ -1,5 +1,5 @@
 # UCLA Style Guide Version 1.0
 
-##Contents
+## Table of Contents
 
-[Grid](/docs/grid.html)
+I. [Grid](/docs/grid.html)
