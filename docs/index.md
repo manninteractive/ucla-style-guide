@@ -2,4 +2,4 @@
 
 ##Contents
 
-[Grid](grid.html)
+[Grid](/docs/grid.html)
