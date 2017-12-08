@@ -2,4 +2,4 @@
 
 ##Contents
 
-{% link docs/grid.html %}
+[Grid](grid.html)
