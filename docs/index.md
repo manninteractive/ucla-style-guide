@@ -2,4 +2,4 @@
 
 ### Table of Contents
 
-I. [Grid](/docs/grid.html)
+I. [Grid](/docs/grid.md)
