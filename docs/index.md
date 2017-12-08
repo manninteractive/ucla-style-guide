@@ -4,4 +4,4 @@
 
 ##Contents
 
-{% link docs/grid.md %}
+{% link docs/grid.html %}
