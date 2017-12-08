@@ -2,4 +2,4 @@
 
 # UCLA Style Guide Version 1.0
 
-[{{ page.title }}]("{{ grid.md | relative_url }}")
+{{ site.baseurl }}{% link _collection/grid.md %}
