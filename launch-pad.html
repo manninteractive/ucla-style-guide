@@ -5,6 +5,7 @@
 <title>Style Guide Version 1.0 | UCLA Graduate School</title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="https://grad.ucla.edu/xmlrpc.php">
+
 <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=zlmqxfsygla47wryopwlag"></script><script type="text/javascript"> //<![CDATA[
 		window.ajaxurl = 'https://grad.ucla.edu/wp-admin/admin-ajax.php';
     //]]> </script>
@@ -39,8 +40,7 @@ img.emoji {
 <link rel="stylesheet" id="grad-ucla-feature-card" href="feature-card.css"/>
 <link rel="stylesheet" id="grad-ucla-tool-tip" href="tool-tip.css"/>	
 <link rel="stylesheet" id="grad-ucla-smart-recs-categories" href="smart-recs-categories.css"/>
-<link rel="stylesheet" id="grad-ucla-accordion" href="accordion.css"/>
-<link rel="stylesheet" id="grad-ucla-color-palette" href="color-palette.css"/>	
+<link rel="stylesheet" id="grad-ucla-smart-recs-categories" href="color-palette.css"/>	
 <link rel="stylesheet" id="font-awesome-css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css?ver=a057f317c8475ee0b50ab2217df79a3d" type="text/css" media="all">
 <link rel="stylesheet" id="grad-ucla-style-base-css" href="https://grad.ucla.edu/wp-content/themes/grad-ucla/style.css?ver=a057f317c8475ee0b50ab2217df79a3d" type="text/css" media="all">
 <link rel="stylesheet" id="grad-ucla-style-common-css" href="https://grad.ucla.edu/wp-content/themes/grad-ucla/css/ucla-common.css?ver=a057f317c8475ee0b50ab2217df79a3d" type="text/css" media="all">
@@ -89,7 +89,7 @@ img.emoji {
 					</header>
 					<nav class="menu-primary-menu-container">
 						<ul id="menu-primary-menu" class="nav-menu">
-							<li id="menu-item-4489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-4489"><a href="index.html">UCLA Graduate Division Style Guide Version 1.0</a></li>
+							<li id="menu-item-4489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-4489"><a href="ucla-style-guide-1.0.html">UCLA Graduate Division Style Guide Version 1.0</a></li>
 						</ul>
 
 
@@ -131,12 +131,10 @@ jQuery(document).ready(function($) {
 					<div class="hero-image-container">
 
 	<div class="site-branding container">
-		<h1 id="logo" class="site-title"><a href="#" rel="home">UCLA Graduate Programs</a></h1><br>
+		<h1 id="logo" class="site-title"><a href="ui.html" rel="home">UCLA Graduate Programs</a></h1>
 	</div>
 	<div class="hero-wrap" style="transform: translateY(0px);">
-		<div class="overlay" style="background-color: #159957;
-    background-image: linear-gradient(120deg, #00a5e5, #1e4b87); height: 360px;">
-		</div>
+		<div class="overlay"></div>
 	<img width="960" height="360" src="https://grad.ucla.edu/wp-content/uploads/2015/08/ucla-prestige-brick-walkway.jpg" class="parallax wp-post-image" alt="Brick walkway outside of Royce Hall" id="hero-image" srcset="https://grad.ucla.edu/wp-content/uploads/2015/08/ucla-prestige-brick-walkway.jpg 960w, https://grad.ucla.edu/wp-content/uploads/2015/08/ucla-prestige-brick-walkway-300x113.jpg 300w" sizes="(max-width: 960px) 100vw, 960px">	</div><!-- .hero-wrap -->
 	
 </div>
@@ -146,40 +144,66 @@ jQuery(document).ready(function($) {
 					<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4412"><a href="https://styleguide.grad.ucla.edu/" target="_blank">Design Ethos A-Z</a></li>
 					<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4412"><a href="https://github.com/manninteractive/ucla-style-guide" target="_blank">View on Github</a></li>
 				</ul>
-			</nav>			
+			</nav>				
 		
 		
 		
 		<main id="main-content" class="site-main" role="main">
-			<div class="section group narrow">
-				<h1>I. UI Components</h1>
-					<ol>
-						<li><a href="ui.html#grid">Grid</a></li>
-						<li><a href="ui.html#color-palette">Color Pallet</a></li>
-						<li><a href="ui.html#typography">Typography</a></li>
-						<li><a href="ui.html#buttons">Buttons</a></li>
-						<li><a href="ui.html#vertical-menu">Vertical Menu</a></li>
-						<li><a href="ui.html#thumbnails">Thumbnails</a></li>
-						<li><a href="ui.html#iconography">Iconography</a></li>
-						<li><a href="ui.html#cards">Cards</a></li>
-					</ol>
-				
-				<h1>II. Page Templates</h1>
-					<ol>
-						<li><a href="side-bar-left.html">Side Bar Left</a></li>
-						<li><a href="side-bar-right.html">Side Bar Right</a></li>
-						<li><a href="narrow.html">Narrow</a></li>
-						<li><a href="medium.html">Medium</a></li>
-						<li><a href="full.html">Full</a></li>
-						<li><a href="grapes.html">Grapes</a></li>
-						<li><a href="launch-pad.html">Launch Pad</a></li>
-					</ol>	
-			</div>
-				
-
+		
+		<div class="section group">
+				<h3>Launch Pad</h3>
+		</div>	
 			
-			
+		<div class="section group">
+				<div class="col span_2_of_6">
+					<div class="card">
+						<div class="feature-header-simple-funding">
+						  <p>Funding</p>
+						</div>
+						<div class="feature-content">
+							<div class="section group">
+								<span class="fa-stack fa-5x aligncenter">
+									  <i class="fa fa-dollar fa-stack-1x recommendation-card-funding-icon"></i>
+								</span><br>
+								<p align="center" class="subtext funding-subtext">Your Funding opportunities</p>
+							</div>
+						</div>
+					</div>
+				</div>
 				
+				<div class="col span_2_of_6">
+						<div class="card">
+							<div class="feature-header-simple-academic">
+							  <p>Enrollment</p>
+							</div>
+							<div class="feature-content">
+								<div class="section group">
+									<span class="fa-stack fa-5x aligncenter">
+										  <i class="fa fa-graduation-cap fa-stack-1x recommendation-card-enrollment-icon"></i>
+									</span><br>
+									<p align="center" class="subtext academic-subtext">Your Academic Enrollment</p>
+								</div>
+							</div>
+						</div>
+					</div>		
+				
+				<div class="col span_2_of_6">
+						<div class="card">
+							<div class="feature-header-simple-calendar">
+							  <p>Calendar</p>
+							</div>
+							<div class="feature-content">
+								<div class="section group">
+									<span class="fa-stack fa-5x aligncenter">
+										  <i class="fa fa-calendar-o fa-stack-1x recommendation-card-calendar-icon"></i>
+									</span><br>
+									<p align="center" class="subtext calendar-subtext">Your Academic Calendar</p>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>	
+		
 		</main><!-- #main -->
 
 
@@ -243,7 +267,6 @@ pageTracker._trackPageview();
 <script type="text/javascript" src="https://grad.ucla.edu/wp-content/themes/grad-ucla/js/gd-parallax.js?ver=20140826"></script>
 <script type="text/javascript" src="https://grad.ucla.edu/wp-content/themes/grad-ucla/js/gd-mobile-nav-scroll-setup.js?ver=20150305"></script>
 <script type="text/javascript" src="https://grad.ucla.edu/wp-includes/js/wp-embed.min.js?ver=a057f317c8475ee0b50ab2217df79a3d"></script>
-<script type="text/javascript" src="accordion.js"></script>
 
 
 

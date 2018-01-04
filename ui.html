@@ -152,7 +152,7 @@ jQuery(document).ready(function($) {
 		
 		<main id="main-content" class="site-main" role="main">
 		<div id ="example">		
-			<h1>Grid</h1>
+			<h1 id="grid">Grid</h1>
 			<p>This repsonsive grid was created to in order to give equal divisions across the content area throughout the site. We have created a 6, 5, and 4 column grid. This provides a variety of different options for layout and design as long as the amount of columns equals to the span of the grid.  The margin is equal to 30px for each column.  For mobile phones the columns will stack vertically.<br><br>
 				This grid was generated at <a href="http://www.responsivegridsystem.com/calculator/" target="_blank">responsivegridsystem.com</a>, using a margin of 3.49% which is equal to 30px, the amount of padding used for the gutters on the main content area of grad.ucla.edu. The grid is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a>.</p>
 			<h3>Six Columns</h3>	
@@ -348,7 +348,7 @@ jQuery(document).ready(function($) {
 			<br>
 			
 			<div class="section group">
-				<h1>Color Palette</h1>
+				<h1 id="color-palette">Color Palette</h1>
 				<h3>University of California, Los Angeles</h3>
 				<p>Color is an important element of brand identity. Like the iconic red of Coca-Cola® and the unmistakable brown of UPS®, color helps your audience identify who you are at a glance.
 
@@ -475,7 +475,7 @@ Blue and gold are the brand colors for every University of California campus, wi
 			</div>
 			<br>
 			<div class="section group">
-				<h1>Typography</h1>
+				<h1 id="typography">Typography</h1>
 				<p>The primary font is Proxmia Nova.  Headings are the UCLA blue and the text color is dark gray.  The base font size is 1.5em with a vertical rhythm of 1.5.</p>
 			</div>
 			<div class="section group">
@@ -658,10 +658,14 @@ Blue and gold are the brand colors for every University of California campus, wi
 						  </table>
 					</div>
 				</div>
+				<br><br>
+				<div class="section group">
+					<h1 id="buttons">Buttons</h1>
+				</div>
 				
 				<div class="section group">
-					<div class="col span_3_of_6 ">
-					<h1>Toggle Swtich</h1><br>
+					<div class="col span_2_of_6 ">
+					<h2>Toggle Swtich</h2><br>
 						<p>The toggle swtich is designed to turn on/off settings or parameters.  The state of the toggle is determined by the color.  Gray is off or disabled while blue is on or active.</p>
 						<label class="switch">
 						  <input type="checkbox">
@@ -673,7 +677,9 @@ Blue and gold are the brand colors for every University of California campus, wi
 						  <span class="slider round"></span>
 						</label>
 						<br><br>
-						<h1>Button</h1><br>
+					</div>
+					<div class="col span_2_of_6">
+						<h2>Button</h2><br>
 						<p>There are two variations of buttons.  They differ based on the interaction type.</p>
 						<div class="button-container">
 							<button class="gd-btn primary">
@@ -687,10 +693,23 @@ Blue and gold are the brand colors for every University of California campus, wi
 							</button>
 						</div>
 					</div>
+					
+					<div class="col span_2_of_6">
+						<h2>Social Login</h2><br>
+						<p>There are two variations of buttons.  They differ based on the interaction type.</p>
+
+					</div>
+					
+				</div>
+		
+				<div class="section group">
 					<div class="col span_3_of_6 ">
-						<h1>Vertical Menu</h1><br>
+						<h1 id="vertical-menu">Vertical Menu</h1><br>
 						<p>The vertical menu's purpose is to provide a way of navigating from one page to the next while staying under the same section.  It can also refered to as a side navigation.</p>
-							<div class="vertical-menu">
+							
+					</div>
+					<div class="col span_3_of_6 ">
+						<div class="vertical-menu">
 							  <a href="#" class="active">Home</a>
 							  <a href="#">Link 1</a>
 							  <a href="#">Link 2</a>
@@ -698,11 +717,14 @@ Blue and gold are the brand colors for every University of California campus, wi
 							  <a href="#">Link 4</a>
 							</div>	
 					</div>
+					
+					
 				</div>
+							
 			    
 				<div class="section group">
 					<div class="col span_6_of_6 ">
-						<h1>Thumbnails</h1>
+						<h1 id="thumbnails">Thumbnails</h1>
 					</div>
 				</div>
 			
@@ -728,7 +750,7 @@ Blue and gold are the brand colors for every University of California campus, wi
 			
 			<div class="section group">
 				<div class="col span_6_of_6 ">
-					<h1>Iconography</h1>
+					<h1 id="iconography">Iconography</h1>
 					<h3>Circle Icon</h3>
 					<p>The circle icon is used to provide visual cues for the user. There are three different sizes small, medium, and large.</p>
 				</div>
@@ -919,7 +941,7 @@ Blue and gold are the brand colors for every University of California campus, wi
 			</div>
 		
 			<div class="section group">
-				<h1>Feature Card</h1>
+				<h1 id="card">Cards</h1>
 			</div>
 			<div class="section group">
 				<h3>Recommendations Card</h3>
