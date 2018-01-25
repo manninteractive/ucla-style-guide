@@ -19,6 +19,7 @@
     color: #FFF !important;
     box-shadow: none;
 }
+
 .linkedinlogo:before {
     content:"";
     box-sizing: border-box;
@@ -55,8 +56,8 @@
 }
 
 
-.logoreversed .linkedinlogo:before {
-    background-image: url('https://github.com/manninteractive/ucla-style-guide/blob/master/img/Logo-White-54px-R.png?raw=true');
+.logoreversed:before {
+    background-image: url('https://github.com/manninteractive/ucla-style-guide/blob/master/img/Logo-2CRev-48px-R.png?raw=true');
 	background-repeat: no-repeat;
     background-size: 85px;
     margin-top: 10px;
