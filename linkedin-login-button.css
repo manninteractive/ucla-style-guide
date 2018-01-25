@@ -53,3 +53,11 @@
 .linkedinlogo:focus {
     box-shadow: none;
 }
+
+
+.logoreversed .linkedinlogo:before {
+    background-image: url('https://github.com/manninteractive/ucla-style-guide/blob/master/img/Logo-White-54px-R.png?raw=true');
+	background-repeat: no-repeat;
+    background-size: 85px;
+    margin-top: 10px;
+}
