@@ -3,7 +3,7 @@
 
 
 .facebooklogo {
-    background-color: #000000 !important;
+    background-color: #3b5998 !important;
     box-sizing: border-box;
     position: relative;
     width: 100%;
@@ -40,14 +40,14 @@
 }
 
 .facebooklogo {
-    background-color: #000000 !important;
+    background-color: #3b5998 !important;
     box-shadow: none;
 }
 
 .facebooklogo:before {
-    background-image: url('https://github.com/manninteractive/ucla-style-guide/blob/master/img/Logo-White-54px-R.png?raw=true');
+    background-image: url('https://github.com/manninteractive/ucla-style-guide/blob/master/img/FB-f-Logo__white_100.png?raw=true');
 	background-repeat: no-repeat;
-    background-size: 85px;
+    background-size: 22px;
     margin-top: 10px;
 }
 .facebooklogo:hover,
