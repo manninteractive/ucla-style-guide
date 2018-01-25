@@ -45,20 +45,13 @@
 }
 
 .linkedinlogo:before {
-    background-image: url('https://github.com/manninteractive/ucla-style-guide/blob/master/img/Logo-White-54px-R.png?raw=true');
-	background-repeat: no-repeat;
-    background-size: 85px;
-    margin-top: 10px;
-}
-.linkedinlogo:hover,
-.linkedinlogo:focus {
-    box-shadow: none;
-}
-
-
-.logoreversed:before {
-    background-image: url('https://github.com/manninteractive/ucla-style-guide/blob/master/img/In-2C-101px-R.png?raw=true');
+    background-image: url('https://github.com/manninteractive/ucla-style-guide/blob/master/img/In-White-108px-R.png?raw=true');
 	background-repeat: no-repeat;
     background-size: 27px;
     margin-top: 9px;
+}
+
+.linkedinlogo:hover,
+.linkedinlogo:focus {
+    box-shadow: none;
 }
