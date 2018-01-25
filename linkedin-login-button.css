@@ -3,7 +3,7 @@
 
 
 .linkedinlogo {
-    background-color: #000000 !important;
+    background-color: #00A0DC !important;
     box-sizing: border-box;
     position: relative;
     width: 100%;
@@ -40,7 +40,7 @@
 }
 
 .linkedinlogo {
-    background-color: #000000 !important;
+    background-color: #00A0DC !important;
     box-shadow: none;
 }
 
@@ -57,8 +57,8 @@
 
 
 .logoreversed:before {
-    background-image: url('https://github.com/manninteractive/ucla-style-guide/blob/master/img/Logo-2CRev-48px-R.png?raw=true');
+    background-image: url('https://github.com/manninteractive/ucla-style-guide/blob/master/img/In-2C-101px-R.png?raw=true');
 	background-repeat: no-repeat;
-    background-size: 85px;
-    margin-top: 10px;
+    background-size: 27px;
+    margin-top: 9px;
 }
