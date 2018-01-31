@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.recommendations-circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    background: #FFE800;
+	font-size: 1.6em;
+	font-weight: 800;
+	color: #1B3DAB;
+}
+
+.favorites-circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    background: #93d3eb;
+	font-size: 1.6em;
+	font-weight: 800;
+	color: #1B3DAB;
+}
